@@ -1,15 +1,17 @@
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
 
-(Remove: decribe the model here, use whatever diagram you need object, class, etc)
+The Portable Organic Trouble-free Self-watering System (POTS) model is, as the name implies, a self-watering system that is comprised of multiple components.  As can seen by the object drawing below, the components are as follows: 
+- Containers
+- Vegetables
+- Water
+- Soil
 
-(Remove: The code does run - you should try it. It does not do much, but has a very basic 
-simulation loop in it and key press to take a look at.)
+![POTS system](../../images/POTS_Object_Diagram.png)
+**POTS Object Diagram**
 
-(Remove: You kill your plants after a key timesteps, but you could always add nuterients
-from compost and add more water and tweak it based on measured constants to simulate
-a real system)
+There are four different classes of vegetable (bokchoy, eggplant, pepper, and stringbean), and there are four different classes of soil (garden mix, Florida sand, cactus mix, and compost).  Water, in multiple forms (snow, rain, irrigation) is also considered in the model, as is the type of container. See the Class Diagram below. 
 
+Each object and class has its own properties and variants with respect to growth impact on the vegetables, and each vegetable has its own measurements, growth rates, and so forth.  
 
-Example linked diagram to help you.
 ![POTS system](../../images/POTS_Class_Diagram.png)
-more decription
+**POTS Class Diagram**
