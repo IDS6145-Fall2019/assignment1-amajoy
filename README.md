@@ -1,8 +1,8 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
 (remove: **text between brackets to be removed**)
 
-> * Participant name: (your name)
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Participant name: Amanda Bond
+> * Project Title: When Is Standing to the Right More Efficient? 
 
 # General Introduction
 
@@ -64,7 +64,12 @@ You are expected to create the python files - the code should run without errors
 # Part 2: Creating a Model from Code
 
 ## (Part 2.1) **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model **(10%)**
-Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template for the code found in  [**the following folder**](code/POTS_system/). Please create a **class** diagram of this model (replace the placeholder diagram). (you can use paper and pencil or a digital tool).
+
+The resulting Object and Class diagrams for the POTS system can be seen below. 
+
+![Image of POTS Object Diagram](images/POTS_Object_Diagram.png)
+
+![Image of POTS Class Diagram](images/POTS_Class_Diagram.png)
 
 
 
