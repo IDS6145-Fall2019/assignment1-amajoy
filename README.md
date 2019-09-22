@@ -81,9 +81,9 @@ I remembered from my travels to NYC, however, that not all stations have escalat
 Given that, I explored the data for just the stations with escalators.  It was clear immmediately which stations had the highest traffic, but this will provide a reasonable sample set across a few stations with varying characteristics across which simulations can be performed with and without queueing improvements.  
 
 
-![Image of Entries Bar Graph]images/EntriesxTimeBlock.png
+![Image of Entries Bar Graph](images/EntriesxTimeBlock.png)
 
-![Image of Exits Bar Graph]images/ExitsxTimeBlock.png
+![Image of Exits Bar Graph](images/ExitsxTimeBlock.png)
 
 
 
