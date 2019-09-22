@@ -72,23 +72,26 @@ Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortabl
 
 ## (Part 3.1) - Real Data **(10%)**
 
-Find a datasource that looks at part of this model - subway stations locations / escalator number, heights, widths / volume of passangers - ridership numbers   (*fits* - we are pretty loose here, it can be anything.)
+For Real World Data, I downloaded New York City turnstile data for 2018 from the U.S. data.gov website.  This data set provided the number of entries and exits per turnstile across stations, grouped by three-hour time block and date. 
 
-* Write up a paragraph that describes the data and how it fits into your system.
-* Load the data into Python
-* Calculate a few useful statistic on the data - keep it simple- STD, means, etc..., this is just designed * to get used to working with real data. Explain the insights you derive from these statistics.
-* Visualize the raw data - visualize a few critical aspects of the data to better describe what it is, what it is showing, and why its useful to your system.
-* Calculate and plot some summary statistics that better describe the data.
+As I was running the data to find out the basic descriptive statistics, two things quickly became evident: there are enormous numbers of people who go through the stations, and the number of entries and exits seem to be about equivalent (though I didn't do a test for equivalency).  This can be seen in the outputs of the entrances and exits per station that the python code outputs.  
 
-(Add your plots and visualization here)
-(Put your data into the data directory)
+I remembered from my travels to NYC, however, that not all stations have escalators.  Since that is the root of the question, I kept digging and found a data set that describes the entrances and exits by providing their latitude and longitude, if the exit has stairs, an elevator, and/or an escalator, and the station that the entrance/exit belongs to.  As it turns out, only about 27 specific entrances and exits across a handful of stations have escalators, unlike in the DC Metro where most if not all stations have escalators.  
+
+Given that, I explored the data for just the stations with escalators.  It was clear immmediately which stations had the highest traffic, but this will provide a reasonable sample set across a few stations with varying characteristics across which simulations can be performed with and without queueing improvements.  
+
+
+![Image of Entries Bar Graph]images/EntriesxTimeBlock.png
+
+![Image of Exits Bar Graph]images/ExitsxTimeBlock.png
+
 
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
 This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
 
-![Image of 2d template City](images/2Dtemplate.png)
+![Image of 2d data](images/Plotting_2D_RNG.png)
 
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
