@@ -32,10 +32,9 @@ print("Entry standard deviation is" + " " + str(entriesstdv))
 
 exitsmean = data["Exits"].mean()
 exitsstdv = data["Exits"].std()
-data
+
 print("Exit means are" + " " + str(exitsmean))
 print("Exit standard deviation is" + " " + str(exitsstdv))
-
 
 
 #please baby jesus let this graph things
@@ -43,18 +42,68 @@ print("Exit standard deviation is" + " " + str(exitsstdv))
 
 #can I show this as entries and exits per station?  Here goes. 
 countbystation = data.groupby("Station").nunique()
+pd.options.display.max_rows=380
 print("This is the count by station" + " " + str(countbystation))
 StationCount = data["Station"].nunique()
 print("The number of stations is" + " " + str(StationCount))
 
+#use the above to get the stations with escalators entry/exit for plotting
+
+hvstations = ["Brighton", "63rd", "8 Av", "Archer Av", "Fulton", 
+              "42nd St", "Broadway at 7th", "Flushing"]
+avgperblockentries = [2496, 2403, 2525, 1999, 13542, 10918,1238, 2315]
+avgperblockexits = [2499, 2349, 2511, 2048, 13623, 10917,1238, 2412]
 
 
-#failed attempt at graphs graveyard
-#plt.hist(x=countbystation)
+#Trying so hard to make graphs - THEY WORK!!!! Don't delete this Amanda
+plt.figure(figsize=(18, 6))
+plt.title("Mean Entries per Time Block by Station")
+plt.bar(hvstations, avgperblockentries)
+plt.savefig("EntriesxTimeBlock.png")
+
+plt.figure(figsize=(18, 6))
+plt.title("Mean Exits per Time Block by Station")
+plt.bar(hvstations,avgperblockexits)
+plt.savefig("ExitsxTimeBlock.png")
+
+
+#Too many returns - let's take a random sample
+#sample = data.sample(frac=0.25)
+#samplebystation = sample.groupby("Station").nunique()
+#print("This is a random sample count by station" + " " + str(samplebystation))
+
+
+#entrymeans = data.groupby(["Station", "Entries"]).mean()
+#exitmeans = data.groupby(["Station", "Exits"]).mean()
+
+#print(enterbystationsum)
+#print(exitbystationsum)
+
+#entriesgrouped = data.groupby("Station", "Entries")
+#for group in entriesgrouped:
+#  plt.figure()
+#  plt.hist(group["Station"].entriesgroup)
+#  plt.show()
+
+
+#data.reset_index().pivot('index','Station','Entries').hist()
+#
+#
+#for i in data["Entries"]:
+#    #data["Entries"].
+#    plt.hist(data["Entries"],by=data["Station"])
+
+
+
+#failed attempt at graphs graveyard of hell
+#plt.hist(x=samplebystation)
 #data.plot.scatter(x="Entries", y = StationCount)
 
 
-#let's try this
-data.plot(kind="bar",x="Station",y="Entries",color='red')
+#let's try this for funsies. 
+#data.plot(kind="bar",x="Station",y="Entries",color='blue')
+
+
+
 
 
