@@ -133,12 +133,12 @@ Below you will find random numbers generated using both the pseudo- and quasi-ra
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
-**Pseudo-Random Distributions
+**Pseudo-Random Distributions**
 
 ![Image of 1d Pseudo-Random data](images/Plotting_1D_RNG_Pseudo.png)
 
-**Quasi-Random Distributions
+**Quasi-Random Distributions**
 
 ![Image of 1d Quasi-Random data](images/Plotting_1D_RNG_Quasi.png)
 
-Repeat the above using a quasi-random generator. Discuss the similarities and differences.
+Both the pseudo-random and quasi-random histogram distriutions look strikingly similar, omitting the differences in binning and other stylistic factors.  Whereas the two were markedly different for the N=100 and N=500 conditions, particularly, both are very similar distribution patterns across the histograms for all conditions. This indicates that, as the N increases, both could be used, pending the specifics of the problem state. 
