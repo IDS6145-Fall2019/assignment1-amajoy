@@ -70,7 +70,7 @@ The model presented here demonstrates several key features, includng trains timi
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
 
-Rougly, I would simulate this with a mix of simulation types.  For the people, agent-based behavior seems to be the most applicable, particularly as I can give the agents variables for their goals as to if they would or would not use the stairs, personal space, etc.  Overall throughput, however, could be a continuous model across time, whereas the arrival and departure of trains carrying people - and cloggin up the escalators - could be discrete simulations.  The escalators themselves should be modeled using a continuous simluation, with the escalators operating at a continuous speed other than when they are switched from up to down and vice versa (when switching to peak hours operations).  
+Roughly, I would simulate this with a mix of simulation types.  For the people, agent-based behavior seems to be the most applicable, particularly as I can give the agents variables for their goals as to if they would or would not use the stairs, personal space, etc.  Overall throughput, however, could be a continuous model across time, whereas the arrival and departure of trains carrying people - and cloggin up the escalators - could be discrete simulations.  The escalators themselves should be modeled using a continuous simluation, with the escalators operating at a continuous speed other than when they are switched from up to down and vice versa (when switching to peak hours operations).  
 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
