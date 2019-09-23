@@ -1,0 +1,5 @@
+The behavior digaram demonstrates the behaviors of the human, across several variables. The first consideration is if the individual will be taking the escalator or the elevator.  We can model this if we assign random variables to individual instances of "people" working under the assumption that thoes with large bags such as suitcases and/or strollers would take the elevator, limiting the number of people on an escalator at a given time.  This may come into play with stops such as Grand Central or the Jamaica train to the Air Train at JFK where we can assume more people have bags. The second consideration, which is critical to our estimates, is the estimation of personal space.  Hall (1966) and Proxemetrics tells us that people have varying standards of personal space, from 140cm (55.1 inches) in Romania to 77cm (30.3 in) in Argentina.  This will have bearing on how close individuals can and will stand on escalators.  The United States average of personal space for strangers is 5 - 10 feet (60 in to 120 in).  
+
+Hall, E. T. (1966). _The Hidden Dimension_, Doubleday, NY.
+
+![Behavior Diagram](model/SubwayBehaviorDrawing.png)
