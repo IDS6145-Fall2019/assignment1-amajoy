@@ -126,13 +126,14 @@ Given that, I explored the data for just the stations with escalators.  It was c
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
-This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
+Below you will find random numbers generated using both the pseudo- and quasi-random methods.  Notably, the quasi-random patterns are much more "organized", given the distancing from previous points that quasi-random sampling entails.  By contrast, pseudo-random data appears in clumps of data, rather than an organized plot.  
 
-![Image of 2d data](images/Plotting_2D_RNG.png)
+![Image of 2d data](images/Plotting 2D RNG.png)
 
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
-Now, choose three different distributions to plot in 1D, or as a histogram. Choose a pseudo-random generator and generate three different distributions. Example distributions are Uniform (part 8), Normal, Exponential, Poisson, and Chi-Squared, but feel free to use any three distributions of your choice. Again, plot each distribution for five different Ns. This will result in 15 different subplots, formatted similar to the image in Part 8. Include your properly formmated 1D plots below and breifly describe what we are looking at and how things change as N is changed.
+
+![Image of 2d data](images/Plotting 1D RNG.png)
 
 Repeat the above using a quasi-random generator. Discuss the similarities and differences.
