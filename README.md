@@ -134,6 +134,6 @@ Below you will find random numbers generated using both the pseudo- and quasi-ra
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
 
-![Image of 2d data](images/Plotting 1D RNG.png)
+![Image of 1d data](images/Plotting 1D RNG.png)
 
 Repeat the above using a quasi-random generator. Discuss the similarities and differences.
