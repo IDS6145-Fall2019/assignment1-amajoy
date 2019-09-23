@@ -5,6 +5,6 @@ The model below demonstrates the objects of the problem state.  The main objects
 - Entrances and Exits and their characteristics
 - People and their characteristics
 
-![Image of Object Diagram](images/SubwayObjDrawing.png)
+(images/SubwayObjDrawing.png)
 
 
