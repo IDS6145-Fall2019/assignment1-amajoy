@@ -128,12 +128,12 @@ Given that, I explored the data for just the stations with escalators.  It was c
 
 Below you will find random numbers generated using both the pseudo- and quasi-random methods.  Notably, the quasi-random patterns are much more "organized", given the distancing from previous points that quasi-random sampling entails.  By contrast, pseudo-random data appears in clumps of data, rather than an organized plot.  
 
-![Image of 2d data](images/Plotting 2D RNG.png)
+![Image of 2d data](images/Plotting_2D_RNG.png)
 
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
 
-![Image of 1d data](images/Plotting 1D RNG.png)
+![Image of 1d data](images/Plotting_1D_RNG.png)
 
 Repeat the above using a quasi-random generator. Discuss the similarities and differences.
