@@ -70,7 +70,7 @@ The model presented here demonstrates several key features, includng trains timi
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
 
-(remove: Describe how you would simulate this - including type of simulation, rough details, inputs, outputs, and how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
+Rougly, I would simulate this with a mix of simulation types.  For the people, agent-based behavior seems to be the most applicable, particularly as I can give the agents variables for their goals as to if they would or would not use the stairs, personal space, etc.  Overall throughput, however, could be a continuous model across time, whereas the arrival and departure of trains carrying people - and cloggin up the escalators - could be discrete simulations.  The escalators themselves should be modeled using a continuous simluation, with the escalators operating at a continuous speed other than when they are switched from up to down and vice versa (when switching to peak hours operations).  
 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
@@ -81,15 +81,17 @@ You are expected to create the python files - the code should run without errors
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
-* What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
-* What ways will you visualize your data - charts, and graphs you will create?
-* What clever way will you visualize your output with a useful infographic?
+- Independent variables: Standing on escalators two abreast vs. standing to the right, escalator length and speed, individuals' notion of personal space
+- Dependent variables: Throughput
+
+In this case, the data available on data. gov for the New York City metro should suffice for the data regarding escalators, however getting the length of escalators may require additional data sources.  People should be randomly assigned to personal space preferences, though the data are available from Hall (1966). 
+
+The statistics that will be most important here will be the average throughput, by hour, for individual stations.  Comparing the two dimensions of standing to the right vs. standing two abreast, when compared using a t-test or analysis of variance, pending other variables, will indicate a stastically signficant throughput change.  
+
+These data will best be visualized using line graphs and even GIFs of throughput visualized as moving dots to demonstrate throughput, as seen here:  https://international.thenewslens.com/article/97109#&gid=1&pid=1 
 
 
+Hall, E. T., (1966). _The Hidden Dimension_, Doubleday, NY.
 
 # Part 2: Creating a Model from Code
 
