@@ -14,11 +14,21 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 # Part 1: Designing a Model - Subway System
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
+As cities grow, mass transit becomes more and more critical for the comings and goings of a city's residents.  Major cities with subterranean mass transit (New York, Boston, Washington, D.C., Paris, Munich, London, Tokyo, Hong Kong, and a myriad of other locations) are at a contstant battle to ease congestion and get passengers where they need to be within a reasonable amount of time.  Along with running trains, this also requires the need for efficient entrance and egress to the stations themselves - if you've ever been trying to get to the last train in Navy Yard after a Nationals Game in Washington, D.C., you know the congestion that can erupt with people clamoring to get on the trains.  
 
-(remove: Add real-world examples, if any)
+Historically, there is an unspoken book of etiquitte of the Subway and Metro systems. For example, see Thrillist's list of unspoken etiquette (https://www.thrillist.com/lifestyle/new-york/the-crowded-nyc-subway-etiquette-guide) on New York public transit.  Unspoken etiquette rules include the following: 
 
-(remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+- Thou shall not put your belongings on a seat.
+- Thou shall not play your music such that others can hear it.
+- Thou shall not manspread.  
+- Thou shall not hug, lean on, or otherwise use the poles for anything other than 'holding'.
+- Thou shall not eat on the train, particularly if the food is pungent. 
+- Thou shall let the people _off_ the train before you get on the train. 
+- Thou shall give up your seat to the elderly, infirm, pregnant, or otherwise in need.
+- Thou shall get thineself out of the way at the top/bottom of the escalator so as not to cause a pileup.  
+- Thou shall stand to the right on escalators and let the stair-steppers proceed on the left. 
+
+The overall goal is to make the commuting experience tolerable for all aboard.  However, the last etiquette bullet, standing on the right and allowing others to pass on the left if they're hoofing it up the stairs, is one that has recently been debunked as potentially not accurate, pending several variables (see https://www.youtube.com/watch?v=cX11cxeW6hA).  If throughput is significantly increased, there's reasonable impetus to change common behavior and have people fill in the entire escalator rather than standing only to the right. 
 
 
 ![Image of Subway City System](images/subway_model.png)
