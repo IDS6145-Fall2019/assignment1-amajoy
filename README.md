@@ -1,5 +1,4 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
-(remove: **text between brackets to be removed**)
 
 > * Participant name: Amanda Bond
 > * Project Title: When Is Standing to the Right More Efficient? 
