@@ -53,13 +53,20 @@ For output, we expect:
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
-(remove: add a high-level overview of your model, the part below should link to the model directory markdown files)
-(remove: Look at the [**Object Diagram**](model/object_diagram.md) for how to structure this part of Part 2 for each diagram. Only the Object diagram has the template, the rest are blank. )
+The model presented here demonstrates several key features, includng trains timing, station characteristics, and people charactieristics.  One of the critical facets of this model, according to my hypothesis, is the rule of personal space.  It is my estimation that cultural personal space will have impact on throughput efficiencies gained by using the "no walking" model for escalator use.  See the linked images below.  
 
-* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
-* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
-* [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
+* [**Object Diagram**]
+
+ ![Image of Object Diagram](model/SubwayObjDrawing.png)
+
+* [**Class Diagram**]
+
+ ![Image of Object Diagram](model/SubwayClassDrawing.png)
+ 
+* [**Behavior Diagram**]
+
+ ![Image of Object Diagram](model/SubwayBehaviorDrawing.png)
+
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
 
