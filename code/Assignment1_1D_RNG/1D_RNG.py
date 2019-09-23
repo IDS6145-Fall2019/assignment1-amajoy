@@ -119,7 +119,7 @@ plt.yticks([])
 plt.xticks([])
 
 plt.show()
-plt.savefig('1DPD_RNG_Pseudo.png')
+plt.savefig('Plotting_1D_RNG_Pseudo.png')
 
 
 #Quasi-Randomness
