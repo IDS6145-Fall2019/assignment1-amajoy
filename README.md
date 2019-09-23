@@ -1,4 +1,4 @@
-# Assignment 1 - Designing Models and Analyzing Data (Template)
+# Assignment 1 - Designing Models and Analyzing Data 
 
 > * Participant name: Amanda Bond
 > * Project Title: When Is Standing to the Right More Efficient? 
@@ -35,7 +35,21 @@ The overall goal is to make the commuting experience tolerable for all aboard.  
 
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
 
-(remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
+In order to investigate the research question, we have a set of requirements.  
+
+We need a set number of inputs and parameters:
+- Typical throughput by station for entrance and exit (preferably by time of day)
+- Station charactieristics - does it have an escalator (or multiple escalators)? What is the size of the escalator(s)? 
+- People, with paramaters such as walking vs. standing, having a carriage (will use elevator), personal space preferences (which can vary significantly by region), and others
+
+We also have a set of functions that must be performed via simulation:
+- Simulate people transiting across a city moving through stations
+- Simulate trains arriving at various times to impact the "bunching up" that can occur at escaltors
+- Simulate the throughput on specific escalators based on people movement
+
+For output, we expect:
+- Number of entrances / exits per hour using escalators (throughput)
+
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
