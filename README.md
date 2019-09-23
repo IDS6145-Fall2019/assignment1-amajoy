@@ -133,8 +133,11 @@ Below you will find random numbers generated using both the pseudo- and quasi-ra
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
+**Pseudo-Random Distributions
 
 ![Image of 1d Pseudo-Random data](images/Plotting_1D_RNG_Pseudo.png)
+
+**Quasi-Random Distributions
 
 ![Image of 1d Quasi-Random data](images/Plotting_1D_RNG_Quasi.png)
 
